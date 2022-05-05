@@ -10,12 +10,28 @@
 			}
 		},
 		{
-			"path": "pages/center/index",
+			"path": "pages/center/center",
 			"style": {
 				"navigationBarTitleText": "个人中心"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/car/car",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车"
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "全部商品"
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "图书商城",
@@ -33,6 +49,16 @@
 	        "selectedIconPath": "static/index-selected.png",
 	        "text": "首页"
 	    }, {
+	        "pagePath": "pages/goods/goods",
+	        "iconPath": "static/icon/g.png",
+	        "selectedIconPath": "static/icon/ga.png",
+	        "text": "全部商品"
+	    },{
+	        "pagePath": "pages/car/car",
+	        "iconPath": "static/icon/c.png",
+	        "selectedIconPath": "static/icon/ca.png",
+	        "text": "购物车"
+	    },{
 	        "pagePath": "pages/center/index",
 	        "iconPath": "static/center.png",
 	        "selectedIconPath": "static/center-selected.png",
