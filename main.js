@@ -11,9 +11,9 @@ Vue.use(uView);
 
 let vuexStore = require("@/store/$u.mixin.js");
 Vue.mixin(vuexStore);
-import store from '@/store';
 
 // 将store放入Vue对象创建中
+import store from '@/store';
 const app = new Vue({
 	store,
 	...App

@@ -13,6 +13,9 @@ const install = (Vue, vm) => {
 	//认证相关的
 	vm.$u.api.authLogin = params => vm.$u.post('/api/auth/login', params)
 	
+	//用户相关的
+	vm.$u.api.userInfo = () => vm.$u.get('/api/user')
+	
 }
 
 export default {

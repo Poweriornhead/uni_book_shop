@@ -31,6 +31,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/auth/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -59,7 +68,7 @@
 	        "selectedIconPath": "static/icon/ca.png",
 	        "text": "购物车"
 	    },{
-	        "pagePath": "pages/center/index",
+	        "pagePath": "pages/center/center",
 	        "iconPath": "static/center.png",
 	        "selectedIconPath": "static/center-selected.png",
 	        "text": "我"
